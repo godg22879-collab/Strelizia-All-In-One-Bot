@@ -1,5 +1,8 @@
 # Core Discord
 discord.py
+discord.py[voice]
+PyNaCl
+pycryptodome
 discord-ext-menus
 jishaku
 

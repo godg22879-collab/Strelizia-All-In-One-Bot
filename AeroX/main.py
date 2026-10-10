@@ -501,6 +501,11 @@ async def main ():
 
     setup_signal_handlers ()
 
+    try:
+        from keep_alive import start_keep_alive
+        start_keep_alive()
+    except Exception as e:
+        logger.warning(f"Could not initialize keep_alive server: {e}")
 
     bot_task =asyncio .create_task (run_bot ())
 
