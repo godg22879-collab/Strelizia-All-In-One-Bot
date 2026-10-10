@@ -139,7 +139,7 @@ from .antinuke .antiwebhookdl import AntiWebhookDelete
 from .antinuke .antiunban import AntiUnban 
 from .antinuke .anti_emojis_stickers import AntiEmojisStickers 
 from .antinuke .anti_nuke_coordinator import AntiNukeCoordinator 
-from .antinuke .antivoicemod import AntiVoiceMod 
+
 
 
 
@@ -298,7 +298,7 @@ async def setup (bot :Strelizia ):
     (AntiUnban ,"AntiUnban"),
     (AntiEmojisStickers ,"AntiEmojisStickers"),
     (AntiNukeCoordinator ,"AntiNukeCoordinator"),
-    (AntiVoiceMod ,"AntiVoiceMod"),
+
     (AntiSpam ,"AntiSpam"),
     (AntiCaps ,"AntiCaps"),
     (AntiLink ,"AntiLink"),
